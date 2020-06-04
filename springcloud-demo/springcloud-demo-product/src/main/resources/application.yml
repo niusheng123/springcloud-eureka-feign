@@ -1,0 +1,11 @@
+server:
+  port: 5061
+  servlet:
+    context-path: /product
+spring:
+  application:
+    name: product-server
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:5060/eureka/eureka
